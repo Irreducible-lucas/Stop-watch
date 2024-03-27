@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(41, 13, 13);
+}
+
+.container{
+  width: 90%;
+  max-width: 600px;
+  height: 50vh;
+ background-image: url(IMG_1255.JPG);
+ background-size: cover;
+ background-position: center;
+text-align: center;
+color: white;
+padding: 40px 0;
+margin: 200px auto 0;
+box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+.container h1{
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 50px;
+}
+
+button{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 40px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 2px solid white;
+}
+button i {
+font-size: 1.5rem;
+color: white;
+}
+
+button:nth-child(2){
+  transform: scale(1.5);
+  background: orangered;
+  color: white;
+
+}
